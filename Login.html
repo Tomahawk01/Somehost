@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Login</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    </head>
+    <body>
+        <header class="header_main">
+            <div class="header">
+                <div class="header_section">
+                    <div class="header_logo">
+                        <a href="index.html"><img src="img/logo.png" alt="logo" id="logo"></a>
+                    </div>
+                    <div class="header_button"><a href="index.html">About Us</a></div>
+                    <div class="header_button"><a href="index.html">Buy Server</a></div>
+                    <div class="header_button"><a href="index.html">Benefits</a></div>
+                    <div class="header_button"><a href="index.html">FAQ</a></div>
+                    <div class="header_button"><a href="index.html">Support</a></div>
+                </div>
+            </div>
+        </header>
+        <!-- Login & Register section -->
+
+        <div class="logreg_container">
+            <div class="logreg_form_box">
+                <div class="logreg_button_box">
+                    <div id="btn"></div>
+                    <button type="button" class="logreg_toggle_btn" onclick="login()">Log In</button>
+                    <button type="button" class="logreg_toggle_btn" onclick="register()">Register</button>
+                </div>
+                <div class="logreg_social_icons">
+                    <a href="https://www.facebook.com"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://www.twitter.com"><i class="fab fa-twitter"></i></a>
+                    <a href="https://www.instagram.com"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+                <!-- Login -->
+                <form id="Login" class="logreg_input_group">
+                    <input type="text" class="logreg_input_field" placeholder="User Id" required>
+                    <input type="password" class="logreg_input_field" placeholder="Enter Password" required>
+                    <input type="checkbox" class="logreg_checkbox"><span>Remember Password</span>
+                    <button type="submit" class="logreg_submit_btn">Log In</button>
+                </form>
+                <!-- Register -->
+                <form id="Register" class="logreg_input_group">
+                    <input type="text" class="logreg_input_field" placeholder="User Id" required>
+                    <input type="email" class="logreg_input_field" placeholder="Email" required>
+                    <input type="password" class="logreg_input_field" placeholder="Enter Password" required>
+                    <input type="checkbox" class="logreg_checkbox"><span>I agree to the terms &amp; conditions</span>
+                    <button type="submit" class="logreg_submit_btn">Register</button>
+                </form>
+            </div>
+        </div>
+
+        <!-- Login & Register end -->
+
+        <div class="footer_wrapper"></div>
+        <footer class="footer">
+            <div class="footer_container">
+                <div class="footer_row">
+                    <div class="footer_col">
+                        <h4>Company</h4>
+                        <ul>
+                            <li><a href="index.html">About Us</a></li>
+                            <li><a href="index.html">Buy Server</a></li>
+                            <li><a href="index.html">Privacy Policy</a></li>
+                            <li><a href="index.html">FAQ</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer_col">
+                        <h4>Get Help</h4>
+                        <ul>
+                            <li><a href="index.html">Start Chat</a></li>
+                            <li><a href="index.html">Write Us</a></li>
+                            <li><a href="index.html">Phone Us</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer_col">
+                        <h4>Privacy Policy</h4>
+                        <ul>
+                            <li><a href="#">Privacy Policy page</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer_col">
+                        <h4>Follow Us</h4>
+                        <div class="footer_social_links">
+                            <a href="https://www.facebook.com"><i class="fab fa-facebook-f"></i></a>
+                            <a href="https://www.twitter.com"><i class="fab fa-twitter"></i></a>
+                            <a href="https://www.instagram.com"><i class="fab fa-instagram"></i></a>
+                            <a href="https://www.linkedin.com"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <script src="Login.js"></script>
+
+    </body>
+</html>
